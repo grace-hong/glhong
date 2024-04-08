@@ -8,7 +8,7 @@
     src: url(Cormorant-Italic-VariableFont_wght.ttf);
 }
 
-h2 {
+.title {
     font-family: Cormorant-Italic;
     font-size: 2.2em;
 }
@@ -32,19 +32,10 @@ body {
  }
 
 .item {
-    font-size: 1.5em;
-    width: auto;
+    font-size: 1.54em;
     padding-left: 5%;
     padding-right: 5%;
     margin-top: 3%;
-}
-
-@media (min-width: 1024px)  { /* tablet, landscape iPad, lo-res laptops ands desktops */ 
-    .item {
-        width: 35%;
-        margin-top: 2%;
-        font-size: 0.95em;
-     }
 }
 
 .footer {
@@ -55,4 +46,17 @@ body {
 
 .footer-item {
     padding-right: 5%;
+    font-size: 1.54em;
+}
+
+@media screen and (min-width: 1000px)  { /* tablet, landscape iPad, lo-res laptops ands desktops */ 
+    .item {
+        width: 35%;
+        margin-top: 2%;
+        font-size: 0.95em;
+     }
+
+     .footer-item {
+        font-size: 0.95em;
+     }
 }
